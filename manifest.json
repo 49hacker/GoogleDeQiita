@@ -1,0 +1,12 @@
+{
+	"name": "GoogleでQiita",
+	"version": "0.1",
+	"description": "Google検索の際、同時にQiitaに聞けるサービス。プログラミングが楽しくなること請け合いです。",
+	"icons": { "48": "48.png" },
+	"permissions": [ "tabs", "http://www.google.com/" ],
+	"content_scripts": [{
+      "matches": ["http://www.google.co.jp/*", "http://www.google.com/*", "https://www.google.co.jp/*"],
+	  "js": ["json2.js", "QiitaRequest.js", "jquery-1.8.2.min.js", "main.js"],
+	  "css": ["style.css"]
+    }]
+}

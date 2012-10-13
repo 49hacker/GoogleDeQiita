@@ -1,0 +1,71 @@
+div#right_col{
+	position: absolute;
+	top:0px;
+	left:850px;
+}
+
+div#qiita_header{
+	background: -webkit-linear-gradient(top, #64C914, #59BB0C);
+	background: -moz-linear-gradient(top, #64C914, #59BB0C);
+	background: -ms-linear-gradient(top, #64C914, #59BB0C);
+	background: -o-linear-gradient(top, #64C914, #59BB0C);
+	background: linear-gradient(top, #64C914, #59BB0C);
+	zoom: 0.5;
+	float: left;
+	width: 95px;
+	height: 35px;
+	padding: 5px 10px 0px 10px;
+}
+
+div#qiita_header a{
+	text-indent: -9999px;
+	text-decoration: none;
+	outline: 0px;
+	float: left;
+	width: 705px;
+	height: 30px;
+	padding-top: 3px;
+	background-image: url("http://qiita.com/assets/siteid-7bb6862e944c064f3bd501e33408dcc3.png");
+	background-position: 5px 0;
+	background-repeat: no-repeat;
+	border-bottom: solid 1px #50BB0C;
+	clear: both;
+}
+
+ul#search_list{
+	position: absolute;
+	top:28px;
+	list-style-type: none;
+}
+
+ul#search_list > li{
+	padding: 8px 15px 12px 15px;
+	width: 330px;
+	border-bottom: solid 1px #50BB0C;
+}
+
+ul#search_list li a.title{
+	font-size: 15px;
+}
+
+ul#search_list li div div{
+	font-size: 13px;
+	margin-top: 7px;
+	margin-bottom: 12px;
+}
+
+ul#search_list ul.tags,
+ul#search_list ul.count{
+	list-style-type: none;
+}
+
+ul#search_list ul.tags li,
+ul#search_list ul.count li{
+	font-size: 12px;
+	float: left;
+	margin-right:7px;
+}
+
+.clear{
+	clear: both;
+}
